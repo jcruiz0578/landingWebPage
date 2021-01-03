@@ -1,0 +1,9 @@
+.carousel-header {
+    border: 1px solid #f00;
+    padding: 1em 0
+}
+
+.carousel-header summary::marker, .carousel-header summary::-webkit-details-marker {
+    color: var(--softBlue);
+    float: right
+}

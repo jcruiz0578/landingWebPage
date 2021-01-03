@@ -1,0 +1,24 @@
+.carousel-content[open] {
+  border-bottom: 1px solid #d3d3d3;
+}
+.carousel-content[open] .carousel-header::marker,
+.carousel-content[open] .carousel-header::-webkit-details-marker {
+  color: var(--softRed);
+}
+.carousel-header {
+  font-size: 0.9em;
+  border-bottom: 1px solid #d3d3d3;
+  padding: 1em 0;
+}
+.carousel-header:focus {
+  outline: 0;
+}
+.carousel-header::marker,
+.carousel-header::-webkit-details-marker {
+  color: var(--softBlue);
+  float: right;
+}
+.questions {
+  padding: 3em 0;
+  text-align: center;
+}
