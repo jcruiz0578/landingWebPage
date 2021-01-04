@@ -59,6 +59,33 @@
           visibility visible
           opacity 1
 
+  @media screen and (min-width 1024px)
+    //modificaciones al menu
+    transform translateY(0)
+    visibility visible
+    opacity 1
+    position initial
+    height auto
+    background initial
+    ul
+      display flex
+      li
+        border none
+        &:last-child // ultimo hijo LOGIN
+          a
+            background var(--softRed)
+            border none
+            border-radius 0.5em
+            color white
+            margin-left 2em
+            margin-top 0
+            padding 0.7em 2em
+
+
+        a
+          color var(--veryDarkBlue)
+    &-open
+      display none
 
 
 
